@@ -1,0 +1,3 @@
+function activateadweb
+    . ~/.python2/adweb/bin/activate.fish
+end
