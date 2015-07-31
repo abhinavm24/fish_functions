@@ -1,3 +1,3 @@
 function psgrep
-    ps -e | grep $argv | grep -v grep
+   ps -e | grep $argv
 end
