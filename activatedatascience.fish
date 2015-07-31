@@ -1,3 +1,3 @@
 function activatedatascience
-    . ~/.python3/datascience/bin/activate.fish
+    . ~/.python3/datascience3/bin/activate.fish
 end

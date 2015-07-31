@@ -1,3 +1,3 @@
 function activateemacs
-    . ~/.python27/default/bin/activate.fish
+    . ~/.python3/emacs3/bin/activate.fish
 end
