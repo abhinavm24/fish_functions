@@ -8,14 +8,14 @@ set -g __fish_git_prompt_hide_untrackedfiles 1
 
 set -g __fish_git_prompt_color_branch blue bold
 set -g __fish_git_prompt_showupstream "informative"
-set -g __fish_git_prompt_char_upstream_ahead "A:"
-set -g __fish_git_prompt_char_upstream_behind "B:"
-set -g __fish_git_prompt_char_upstream_prefix "u"
+set -g __fish_git_prompt_char_upstream_ahead "Ahead:"
+set -g __fish_git_prompt_char_upstream_behind "Behind:"
+set -g __fish_git_prompt_char_upstream_prefix " u"
 
-set -g __fish_git_prompt_char_stagedstate "S:"
-set -g __fish_git_prompt_char_dirtystate "D:"
-set -g __fish_git_prompt_char_untrackedfiles "(U)"
-set -g __fish_git_prompt_char_conflictedstate "C:"
+set -g __fish_git_prompt_char_stagedstate " Staged:"
+set -g __fish_git_prompt_char_dirtystate " Dirty:"
+set -g __fish_git_prompt_char_untrackedfiles "(Untracked)"
+set -g __fish_git_prompt_char_conflictedstate " Conflicts:"
 set -g __fish_git_prompt_char_cleanstate "clean"
 
 set -g __fish_git_prompt_color_dirtystate blue
