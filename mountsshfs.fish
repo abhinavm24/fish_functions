@@ -14,7 +14,7 @@ function mountsshfs -d 'mount sshfs: mountsshfs <remote path> <hostname>'
        end
 
        set COMMAND "sshfs -o idmap=user $REMOTE $LOCALTARGET/"
-       echo "sshfs -o $COMMAND"
+       echo "$COMMAND"
        sshfs -o idmap=user $REMOTE $LOCALTARGET
 
    else
