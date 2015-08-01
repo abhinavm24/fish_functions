@@ -14,7 +14,7 @@ set -g __fish_git_prompt_char_upstream_prefix " u"
 
 set -g __fish_git_prompt_char_stagedstate " Staged:"
 set -g __fish_git_prompt_char_dirtystate " Dirty:"
-set -g __fish_git_prompt_char_untrackedfiles "(Untracked)"
+set -g __fish_git_prompt_char_untrackedfiles " (Untracked Files)"
 set -g __fish_git_prompt_char_conflictedstate " Conflicts:"
 set -g __fish_git_prompt_char_cleanstate "clean"
 
