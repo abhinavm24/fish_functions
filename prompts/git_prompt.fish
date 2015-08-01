@@ -107,9 +107,9 @@ end
 # initialize our new variables
 # in theory this would be in a fish_prompt event, but this file isn't sourced
 # until the fish_prompt function is called anyway.
-#if not set -q __prompt_initialized_2
+if not set -q __prompt_initialized_2
 	set -U fish_color_user -o blue
 	set -U fish_color_host -o purple
 	set -U fish_color_status red
 	set -U __prompt_initialized_2
-#end
+end
