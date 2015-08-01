@@ -1,10 +1,8 @@
 function restartopenvpn
-    if [ (count $argv) -gt 1 ]
-       echo "Removing shared connection"
-       set SSHCONNECTION /tmp/openvpn*:22
-       if test -f $SSHCONNECTION
-	  rm $SSHCONNECTION
-        end
+    echo "Removing shared connection"
+    set SSHCONNECTION /tmp/openvpn*:22
+    if test -f $SSHCONNECTION
+       rm $SSHCONNECTION
     end
     echo "Killing sshfs"    
     pkill -9 sshfs
