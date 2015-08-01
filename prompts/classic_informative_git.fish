@@ -18,10 +18,10 @@ set -g __fish_git_prompt_char_untrackedfiles "(Untracked)"
 set -g __fish_git_prompt_char_conflictedstate " Conflicts:"
 set -g __fish_git_prompt_char_cleanstate "clean"
 
-set -g __fish_git_prompt_color_dirtystate blue
-set -g __fish_git_prompt_color_stagedstate magenta
+set -g __fish_git_prompt_color_dirtystate magenta
+set -g __fish_git_prompt_color_stagedstate yellow
 set -g __fish_git_prompt_color_invalidstate red
-set -g __fish_git_prompt_color_untrackedfiles $fish_color_normal
+set -g __fish_git_prompt_color_untrackedfiles cyan
 set -g __fish_git_prompt_color_cleanstate black
 
 
