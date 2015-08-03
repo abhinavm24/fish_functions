@@ -1,7 +1,8 @@
 function printusage
        echo "Usage:"
        echo "    openvpnconnect start|stop"
-       echo "Assumes '~/.config/openvipn/openvpnconifg.ovpn' file exists"
+       echo "Assumes '~/.config/openvpn/openvpnconifg.ovpn' file exists"
+       echo "Also assumes executable `waitforvpn` on the path"
 end
 
 function setstate
