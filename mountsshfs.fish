@@ -1,5 +1,6 @@
 function mountsshfs -d 'mount sshfs: mountsshfs <remote path> <hostname>'
     # The value for remote follows the scp syntax -- <ssh address>:<path>
+    echo "Assumes LOCALMOUNT is a writeable path (e.g. /tmp/sshfsmount)"
     if [ (count $argv) -gt 1 ]
        set SOURCE  $argv[1]
        set HOSTNAME  $argv[2]
