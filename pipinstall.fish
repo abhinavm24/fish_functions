@@ -1,3 +1,3 @@
 function pipinstall
-    pip install --use-mirrors $argv
+    pip install $argv
 end
