@@ -1,3 +1,3 @@
 function smax
-         emacsclient /sudo::$argv
+    emacsclient  /sudo::$argv
 end
