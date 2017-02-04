@@ -1,3 +1,3 @@
 function interfaces
-    ifconfig | grep 'Link\ encap\|inet\ addr'
+    ifconfig | grep -P "inet\s(addr:)*\d\d\d\." | grep -v "127.0.0.1"
 end
