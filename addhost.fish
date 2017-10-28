@@ -1,3 +1,3 @@
 function addhost
-    max /sudo::/etc/hosts
+    emacs /sudo::/etc/hosts
 end        
