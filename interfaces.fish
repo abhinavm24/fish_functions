@@ -1,3 +1,3 @@
 function interfaces
-    ifconfig | grep -P "(Link|flags)|(inet\s(addr:)*\d\d\d\.)" | grep -v "127.0.0.1"
+    ifconfig | grep -P "(ether)|(Link|flags)|(inet\s(addr:)*\d+\.)" | grep -v "127.0.0.1"
 end
