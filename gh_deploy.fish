@@ -1,3 +1,3 @@
 function gh_deploy
-  ghp-import -n -p build/html/
+ ghp-import -np $argv build/html
 end
