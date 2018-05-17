@@ -1,3 +1,3 @@
 function addhost
-    emacs /sudo::/etc/hosts
+ emacs /sudo::/etc/hosts &
 end        
