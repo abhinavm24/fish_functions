@@ -1,3 +1,3 @@
 function pipfreeze
- pipdeptree -f --warn silence | grep -P '^[\w0-9\-=.]+' | grep -oP '^[\w0-9\-.]+[^=]' | grep -v '\-e'
+ pipdeptree --freeze --warn silence | grep --only-matching --perl-regexp '^[\w\-]+' | grep --invert-match '\-e\|pkg-resources'
 end
