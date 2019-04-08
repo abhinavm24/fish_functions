@@ -1,3 +1,3 @@
 function pycalc
-         python -c "print $argv"         
+         python -c "print($argv)"
 end
