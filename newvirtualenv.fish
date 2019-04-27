@@ -8,5 +8,7 @@ function newvirtualenv
   pip install wheel --upgrade
   pip install pip --upgrade
   pip install virtualenv --upgrade
+  pip install pipdeptree --upgrade
+  pip install pip-tools --upgrade
   cd $CURRENT_DIRECTORY
 end
