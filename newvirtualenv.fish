@@ -10,5 +10,6 @@ function newvirtualenv
   pip install virtualenv --upgrade
   pip install pipdeptree --upgrade
   pip install pip-tools --upgrade
+  pip install virtualfish --upgrade
   cd $CURRENT_DIRECTORY
 end
