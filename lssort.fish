@@ -1,3 +1,3 @@
 function lssort
- ls -halt
+ ls -halt $argv
 end
