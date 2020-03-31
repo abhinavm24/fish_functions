@@ -1,3 +1,3 @@
 function address
-    emacs ~/documents/pcloud_drive/roku_chiji/fusu/address.txt &
+    emacs "~/pCloudDrive/Crypto Folder/roku_chiji/fusu/address.org" &
 end
