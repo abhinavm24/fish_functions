@@ -1,3 +1,3 @@
 function rsyncer
-  rsync -Pravz --delete $argv
+  rsync -Pravz  $argv
 end
