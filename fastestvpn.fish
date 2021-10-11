@@ -1,3 +1,3 @@
 function fastestvpn
-  vpn connect --fastest
+  protonvpn-cli connect --fastest
 end
